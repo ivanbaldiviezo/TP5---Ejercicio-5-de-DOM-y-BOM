@@ -4,6 +4,11 @@
 }
 
 body {
+    min-height: 100vh;
+    background: url(../img/fondo-reloj.jpg), center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
     font-family: Arial, sans-serif;
     display: flex;
     align-items: center;
@@ -14,6 +19,7 @@ body {
 
 .contenedor {
     text-align: center;
+    background:rgba(0, 0, 0, .5);
 }
 
 #cronometro {
@@ -26,4 +32,6 @@ body {
     margin: 5px;
     padding: 10px;
     cursor: pointer;
+    background:rgba(0, 0, 0, .5);
+    color: #fff;
 }
