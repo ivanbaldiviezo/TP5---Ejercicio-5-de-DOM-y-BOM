@@ -3,3 +3,27 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+#cronometro {
+    font-size: 2em;
+    margin: 20px;
+}
+
+.botones button {
+    font-size: 1em;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
